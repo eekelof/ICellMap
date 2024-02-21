@@ -30,7 +30,7 @@ bun i @wingit/icellmap
 ```javascript
 import ICellMap from "@wingit/icellmap";
 
-// create a CellMap
+// create a ICellMap
 // params are width, height & cell size
 const units = new ICellMap(100, 100, 10);
 

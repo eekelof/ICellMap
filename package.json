@@ -1,6 +1,6 @@
 {
     "name": "@wingit/icellmap",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Spatial Hash Grid that extends Map & incrementally assigns IDs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
