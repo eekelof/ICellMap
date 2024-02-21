@@ -1,8 +1,8 @@
 # ICellMap
 
-[![npm](https://img.shields.io/npm/v/@wingit/cellmap)](https://www.npmjs.com/package/@wingit/cellmap)
-[![npm](https://img.shields.io/npm/dm/@wingit/cellmap)](https://www.npmjs.com/package/@wingit/cellmap)
-[![GitHub](https://img.shields.io/github/license/eekelof/cellmap)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+[![npm](https://img.shields.io/npm/v/@wingit/icellmap)](https://www.npmjs.com/package/@wingit/icellmap)
+[![npm](https://img.shields.io/npm/dm/@wingit/icellmap)](https://www.npmjs.com/package/@wingit/icellmap)
+[![GitHub](https://img.shields.io/github/license/eekelof/icellmap)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 Spatial Hash Grid that extends Map &amp; incrementally assigns IDs
 
@@ -49,8 +49,8 @@ units.delete(id);
 unit.pos.x = 35;
 units.update(unit);
 
-// get units in range
-const unitsInRange = g.ig.units.query(pos, radius);
+// get cells in range
+const cellsInRange = g.ig.units.query(pos, radius);
 for (const cell of unitsInRange) {
     for (const u of cell){
         console.log(u);
