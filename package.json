@@ -1,0 +1,32 @@
+{
+    "name": "@wingit/icellmap",
+    "version": "1.0.0",
+    "description": "Spatial Hash Grid that extends Map & incrementally assigns IDs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eekelof/ICellMap.git"
+    },
+    "keywords": [
+        "javascript",
+        "typescript",
+        "spatial-hash",
+        "spatial-hash-grid",
+        "shg",
+        "cellmap",
+        "map"
+    ],
+    "author": "Erik Ekelöf",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/eekelof/ICellMap/issues"
+    },
+    "homepage": "https://github.com/eekelof/ICellMap#readme",
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    }
+}
